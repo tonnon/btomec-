@@ -7,7 +7,6 @@ import {
     FaFacebook,
     FaInstagram,
     FaLinkedin,
-    FaYoutube,
     FaHome,
     FaBuilding,
   } from "react-icons/fa";
@@ -24,20 +23,20 @@ import {
       to: "header",
     },
     {
-      label: "Services",
-      to: "services",
+      label: "Institucional",
+      to: "institucional",
     },
     {
-      label: "About Us",
-      to: "about",
+      label: "Produtos",
+      to: "produtos",
     },
     {
-      label: "Reviews",
-      to: "testimonials",
+      label: "Cases",
+      to: "cases",
     },
     {
-      label: "Contact Us",
-      to: "contact",
+      label: "Contato",
+      to: "contato",
     },
   ];
   
@@ -186,22 +185,17 @@ import {
     {
       name: "Facebook",
       icon: <FaFacebook />,
-      link: "https://www.facebook.com",
+      link: "https://www.facebook.com/btomec",
     },
     {
       name: "Instagram",
       icon: <FaInstagram />,
-      link: "https://www.instagram.com",
+      link: "https://www.instagram.com/btomecferramentaria/",
     },
     {
       name: "LinkedIn",
       icon: <FaLinkedin />,
-      link: "https://www.linkedin.com",
-    },
-    {
-      name: "Youtube",
-      icon: <FaYoutube />,
-      link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+      link: "https://www.linkedin.com/company/btomec/",
     },
   ];
   
